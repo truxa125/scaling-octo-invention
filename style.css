@@ -51,3 +51,113 @@ nav a {
 nav a:hover {
     color: #48c6ff;
 }
+
+
+
+
+/* Hlavní obsah */
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+section {
+    background: #121d35;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: 1px solid #263c60;
+}
+
+h2 {
+    color: #55c7ff;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #9edfff;
+    margin: 12px 0;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+/* Obrázky */
+.uvod img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Galerie */
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.karta {
+    background: #121d35;
+    border: 1px solid #263c60;
+    border-radius: 12px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.karta:hover {
+    transform: translateY(-5px);
+    border-color: #48c6ff;
+}
+
+.karta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.karta p {
+    color: #c5d4e9;
+}
+
+/* Zdroje */
+.zdroje a {
+    color: #55c7ff;
+}
+
+.zdroje a:hover {
+    color: white;
+}
+
+/* Patička */
+footer {
+    background: #111a30;
+    text-align: center;
+    padding: 25px;
+    color: #a9b8d0;
+    border-top: 2px solid #2588c9;
+}
+
+/* Mobilní zařízení */
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    .galerie {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 20px 12px;
+    }
+}
