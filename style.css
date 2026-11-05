@@ -4,3 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080d1c;
+    color: #f1f5ff;
+    line-height: 1.7;
+}
+
+/* Hlavička */
+header {
+    text-align: center;
+    padding: 65px 20px;
+    background: linear-gradient(135deg, #101d3c, #173c65);
+}
+
